@@ -19,6 +19,9 @@
 // console.log("Today is : " + dayList[day]);
 // console.log("Current time is : " + today.toLocaleTimeString());
 
+//Different way
+// day.toString().slice(0,3);
+
 //Task Two
 // Definition :
 // 2. Write a JavaScript program to print the current window contents.
@@ -55,20 +58,17 @@
 // Definition :
 // 5. Write a JavaScript program to rotate the string 'w3resource' in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.
 
-// function rotateStringRight(str) {
+// function rotate_String_Right(str) {
 //     let rotatedStr = str;
 //     setInterval(() => {
-//         // Remove the last character
+//
 //         let lastChar = rotatedStr.slice(-1);
-//         // Attach it to the front
+//
 //         rotatedStr = lastChar + rotatedStr.slice(0, -1);
-//         // Display the rotated string
+//
 //         console.log(rotatedStr);
-//     }, 1000); // Rotate every 1 second
+//     }, 1000);
 // }
-
-// // Start rotating the string 'w3resource'
-// rotateStringRight('w3resource');
 
 //Task Six
 // Definition :
@@ -95,7 +95,7 @@
 
 //Task Eight
 // Definition :
-// 8.Write a JavaScript program where the program takes a random integer between 1 and 10, and the user is then prompted to input a guess number. The program displays a message "Good Work" if the input matches the guess number otherwise "Not matched".  
+// 8.Write a JavaScript program where the program takes a random integer between 1 and 10, and the user is then prompted to input a guess number. The program displays a message "Good Work" if the input matches the guess number otherwise "Not matched".
 
 // let randomNumber = Math.floor(Math.random() * (max - min +1) + min)
 
@@ -111,24 +111,23 @@
 //Task Nine
 // Definition :
 // 9. Write a JavaScript program to calculate days left until next Christmas.
-// function daysUntilChristmas() {
+// function days_Until_Christmas() {
 //     const today = new Date();
 //     const currentYear = today.getFullYear();
-//     const christmasDate = new Date(currentYear, 11, 25);  // December is month 11
-  
-//     // If today's date is past December 25th, calculate for next year's Christmas
+//     const christmasDate = new Date(currentYear, 11, 25);
+
 //     if (today > christmasDate) {
 //       christmasDate.setFullYear(currentYear + 1);
 //     }
-  
+
 //     const oneDay = 1000 * 60 * 60 * 24;  // milliseconds in one day
 //     const daysLeft = Math.ceil((christmasDate - today) / oneDay);
-  
+
 //     return daysLeft;
 //   }
-  
-//   console.log(`There are ${daysUntilChristmas()} days left until Christmas.`);
-  
+
+//   console.log(`There are ${days_Until_Christmas()} days left until Christmas.`);
+
 //Task Ten
 // Definition :
 // 10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
