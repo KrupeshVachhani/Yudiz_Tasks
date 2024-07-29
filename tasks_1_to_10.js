@@ -129,3 +129,15 @@
   
 //   console.log(`There are ${daysUntilChristmas()} days left until Christmas.`);
   
+//Task Ten
+// Definition :
+// 10. Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+
+// let num1 = prompt("Enter the first number: ");
+// let num2 = prompt("Enter the second number: ");
+
+// let multiplication = num1 * num2;
+
+// let division = num1 / num2;
+// console.log(`Multiplication: ${multiplication}`);
+// console.log(`Division: ${division}`);
