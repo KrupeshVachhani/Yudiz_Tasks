@@ -43,6 +43,7 @@
 
 // Task Twenty-five
 // Definition :
+// 25. Write a JavaScript program to check whether a given positive number is a multiple of 3 or 7.  
 
 // function check_Num_Is_Divisible_By_3_Or_7(num){
 //     if(num % 3 == 0 || num % 7 == 0){
@@ -50,4 +51,60 @@
 // }else {
 //     return false
 // }
+// }
+
+// Task Twenty-six
+// Definition :
+//26. Write a JavaScript program to create a string from a given string. This is done by taking the last 3 characters and adding them at both the front and back. The string length must be 3 or more.
+
+// function add_Last_3_Chars_Front_And_Back(str) {
+//     if (str.length < 3) {
+//         return false;
+//     } else {
+//         let last3Chars = str.slice(-3);
+//         return last3Chars + str + last3Chars;
+//     }
+// }
+
+// Task Twenty-seven
+// Definition :
+//27. Write a JavaScript program to check whether a string starts with 'Java' if it does not otherwise.
+// function starts_With_Java(str){
+//     str.startsWith('Java') ? console.log(true) : console.log(false)
+// }
+
+// Task Twenty-eight
+// Definition :
+// 29. Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive). Return true if one or more of them are in the specified range. 
+
+// function check_2_Values_InRange_Of_50_To_99(x,y){
+//     if((x >= 50 && x <= 99) || (y >= 50 && y <= 99) ){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
+
+// Task Twenty-nine
+// Definition :
+// 29. Write a JavaScript program to check whether three given integer values are in the range 50..99 (inclusive). Return true if one or more of them are in the specified range. 
+
+// function check_3_Values_InRange_Of_50_To_99(x,y,z){
+//     if((x >= 50 && x <= 99) || (y >= 50 && y <= 99) || (y >= 50 && y <= 99) ){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
+
+// Task Thirty
+// Definition :
+//30. Write a JavaScript program to check whether a string "Script" appears at the 5th (index 4) position in a given string. If "Script" appears in the string, return the string without "Script" otherwise return the original one.
+
+// function check_Script_Appears_4th_Index(str){
+//     if( (str.indexOf("script") == 4) || str.indexOf("Script") == 4){
+//         return true;
+//     }else{
+//         return false;
+//     }
 // }
